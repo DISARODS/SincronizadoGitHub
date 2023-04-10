@@ -1,0 +1,57 @@
+1. Indicar estructura de carpetas y archivos (Done) 
+
+2. Indicar si usuario recursos externos  / librerias o frameworks . si si, cuales 
+
+3. Como imprementaria 
+	
+	1 - Consumir una lista de productos desde un JSON-serve
+	
+	3 - En la página principal, Filtrar por categoría de productos desde la página principal: (Get by Class para 	usar 	el ID en algo mas especifico
+
+	4 - Al  dar  click  sobre  un  botón  en  la  card  del  producto,  debe  permitir  la  opción  de 
+	agregar a favoritos. ( Agregaria un boton de corzon en el card para que asi se agregue a favoritos)
+
+	6 - En la lista de favoritos al agregarse el producto le agregaría un botón (Button) x de borrado para que remueva el Id o el row donde esta el botón .
+
+	
+	7 - En el card agregaria el boton + y que un Java script lo escuche para que escuche el evento y lo muestre 	en lo que se desplegara del header de carrito 
+
+	10 - Le agregaria un a con ref para que me lleve a un index mas limpio donde se recolecten los datos para 	finalizar la compra 
+
+	12 - xxx  Al presionar el botón "Buy Now" debe guardar la compra en un array de compras 
+			dentro del Json-Serve
+
+	13 - 	 En una página adicional de administrador, permitir al usuario: 
+	a. Ver productos actuales, 
+	b. Modificar un producto, 
+	c. borrar un producto, y 
+	d. crear un nuevo producto 
+	e. usando JSON-server ver lista de compras de usuarios.
+		 
+
+16 Definir:
+	
+
+a. Funciones (arrow functions) =
+
+b. Peticiones HTTPs (GET, POST, PUT, PATCH, delete) =
+
+c. Condicionales =
+
+d. JSON-server =
+
+e. Eventos =
+
+f. Métodos del DOM HTML =
+
+g. Async/Await o .then().catch =
+
+h. localStorage =
+
+		 
+
+
+	
+	
+
+	

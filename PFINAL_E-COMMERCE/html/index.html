@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header> 
+        <!-- - ESTE HEADER ES FIJO -
+        -CONTENDRA A EL TITULO , BARA DE BUSQUEDA ICONOS DE LA DERECHA-
+        -ALL CATEGORIAS BOTON(MUESTRA TODOS LOS PRODUCTOS DE TODAS LAS CATEGORIAS)- - OPCIONES DESPLEGABLES (NO FINCIONALES)-  -->
+        
+        <div class="primera-barra">
+            <div class="icono-tienda">
+                ICONOTIENDA
+            </div>
+            
+            <div class="barra-busqueda">
+                BARRADEBUSQUEDA
+            </div>
+            <div class="botones">
+                BOTON1
+                BOTON2
+                BOTON3
+                BOTON4
+            </div>
+                <!-- BOTON FAVORITOS
+                -AL DARLE CLICK MANDA A OTRO HTML DONDE SE MUESTRA LA LISTA DE FAVORITOS-
+
+                BOTON CARRITO
+                -HOOVER PARA MOSTRAR PRODUCTOS DEL CARRITO-
+                FUNCIONES HOOVER => CREAR MINIVENTANA
+                    - EN LA MINIVENTANA SE MUESTRAN LOS PRODUCTOS DEL ARRAY CARRITO
+                    - X PARA BORRAR PRODUCTOS DEL ARRAY
+                    - TOTAL DEL CARRITO (SUMA DE LOS PRECIOS)
+                    
+                    DOS BOTONES
+                    BOTONVIEWCART - CHECKOUT (LLEVAN AMBOS A LA PAGINA DE FAVORITOS NUEVO HTML) -->
+             
+        </div>
+        <div class="segunda-barra">
+            <div class="all-categories">
+                <p>ALL CATEGORIES</p>
+            </div>
+            <div class="desplegables-falsos">
+                <p>Home icono </p>
+                <p>Shop icono </p>
+                <p>Product icono </p>
+                <p>Mega Menu icono </p>
+                <p>Blog icono </p>
+                <p>Pages icono </p>
+                <p>Contact icono </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="promociones">
+            <!-- PROMOCIONES
+            -IMAGENES PROMOCIONES-
+            -BLOCK GRANDE-BLOCK/BLOCK-
+            -BLOCK-BLOCK-BLOCK -->
+
+
+
+        </div class="container-CATEGORIASYPRODUCTOS">
+            <!-- CATEGORIAS Y PRODUCTOS-->
+
+            <!-- CATEGORIAS -->
+            <div class="categorias">
+                <H3>Category</H3>
+                <!-- LLAMAR CATEGORIA DESDE LAS CATEGORIAS DISPONIBLES EN EL JSON SERVER -->
+                <p class="categorias-json"></p>
+            </div>
+
+            <!-- PRODUCTOS -->
+            <div class="productos">
+                <!-- CARD -->
+                <div class="card">
+                        <!-- IMAGEN/DESCRIPCION/BOTONAGREGAR -->
+                        <!-- HOVER DE IMAGEN |OJOVISUALIZAR(NO FUNCIONA)|RECICLAR(NOFUNCIONA)|AGREGARFAVORITOS(FUNCIONA,MANDAARRAYFAV) -->
+                        <div class="product-list">
+                        </div>   
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- FINAL DE DESCRIPCION DE LA TIENDA
+                CATEGORIAS
+                USEFULLINKS
+                HELPCENTER
+                CONTACTUS/BOTONESGOOGLEPAYAPPSOTE(THUMBNAIL)
+
+        PIE DE PAGINA -->
+        <div class="final-de-pagina">
+            <table class="contenido-final">
+                <tr>
+                  <th>Celda 1</th>
+                  <th>Celda 2</th>
+                  <th>Celda 3</th>
+                  <th>Celda 4</th>
+                  <th>Celda 5</th>
+                </tr>
+                <tr>
+                  <td>Valor 1</td>
+                  <td>Valor 2</td>
+                  <td>Valor 3</td>
+                  <td>Valor 3</td>
+                  <td>Valor 3</td>
+                </tr>
+                <tr>
+                  <td>Valor 4</td>
+                  <td>Valor 5</td>
+                  <td>Valor 6</td>
+                  <td>Valor 3</td>
+                  <td>Valor 3</td>
+                </tr>
+                <tr>
+                    <td>Valor 4</td>
+                    <td>Valor 5</td>
+                    <td></td>
+                    <td>Valor 3</td>
+                    <td>Valor 3</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Valor 5</td>
+                    <td>Valorr 5</td>
+                    <td>Valor 3</td>
+                    <td></td>
+                </tr>
+
+              </table>
+              
+
+
+
+        </div>
+
+
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

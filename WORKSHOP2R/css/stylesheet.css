@@ -1,0 +1,113 @@
+
+body{
+  background-color: rgb(129, 106, 106);
+  border-radius: 10px;
+}
+
+
+header{ 
+  background-color: rgb(48, 48, 48);
+}
+
+h1{  background-color: white;
+  background-position: center;
+  width: fit-content;
+  height: fit-content;
+  font-size: 100%;
+  display: flex;
+  border-radius: 10px;
+  padding: 15px;
+  border-radius: 10px;}
+
+main{  align-items: center;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(236, 234, 234);
+  background-color: gray;
+  padding: 10px;
+}
+
+footer{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(235, 232, 232);
+  border-end-end-radius: 10px;
+}
+.container{
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.pokemon{
+  align-items: center;
+  justify-content:start;
+  background-position: center;
+}
+
+
+.pokemon.charizar{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.stats{
+  align-items: center;
+  background-position: center;
+  display: grid;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+
+.pokemones_container {
+  align-items: center;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(236, 234, 234);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/*----------------------------- parte de abajo-----------------------------------*/
+.pokemones_container.others {
+
+   align-items: center;display: flex;justify-content: center;
+  }
+
+.pokemones_container .secondary{
+  background-color: black;
+  border-radius: 8px;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+.pokemones_container .secondary:hover{
+    opacity: 1.5;
+  }
+/*----------------------------- edit mobile-----------------------------------*/
+
+
+  @media (max-width: 800px){
+    main{
+        display:block;
+    }
+
+    .stats{
+      display: grid;
+      justify-content: space-between;
+    }
+}
+
