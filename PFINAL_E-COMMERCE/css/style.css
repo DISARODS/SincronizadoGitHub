@@ -401,7 +401,7 @@ footer {
 
 /* -------------------------------  MEDIA  -----------------------------*/
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   .footer-content img {
     width: 50px; /* tamaño del logo en dispositivos móviles */
   }
