@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header> 
@@ -14,21 +17,36 @@
         -CONTENDRA A EL TITULO , BARA DE BUSQUEDA ICONOS DE LA DERECHA-
         -ALL CATEGORIAS BOTON(MUESTRA TODOS LOS PRODUCTOS DE TODAS LAS CATEGORIAS)- - OPCIONES DESPLEGABLES (NO FINCIONALES)-  -->
         
-        <div class="primera-barra">
-            <div class="icono-tienda">
-                ICONOTIENDA
+        <div class="inicio-de-pagina">
+            <div class="idioma">
+                <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-states.png" alt="BANDERAIMG"> English
+            </div>
+            <div class="moneda"><p>USD <</p> 
             </div>
             
+        </div>
+
+        <div class="primera-barra">
+            <div class="icono-tienda">
+                <a href="/html/index.html"><img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="icono de la tienda"></a> 
+            </div>
+            
+            <div class="ubicacion">
+                <span class="location-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </span>
+            </div>
+
             <div class="barra-busqueda">
-                BARRADEBUSQUEDA
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="I'm searching for..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn" type="button" id="button-addon2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </button>
+                </div>
             </div>
-            <div class="botones">
-                BOTON1
-                BOTON2
-                BOTON3
-                BOTON4
-            </div>
-                <!-- BOTON FAVORITOS
+
+            <!-- BOTON FAVORITOS
                 -AL DARLE CLICK MANDA A OTRO HTML DONDE SE MUESTRA LA LISTA DE FAVORITOS-
 
                 BOTON CARRITO
@@ -40,22 +58,50 @@
                     
                     DOS BOTONES
                     BOTONVIEWCART - CHECKOUT (LLEVAN AMBOS A LA PAGINA DE FAVORITOS NUEVO HTML) -->
-             
+
+            <div class="botones">
+                <div class="botones">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <a href="/html/paginadefavoritos.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></a>
+                    <a href="/html/paginadecarrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+            </div>
+                
         </div>
+
         <div class="segunda-barra">
-            <div class="all-categories">
-                <p>ALL CATEGORIES</p>
-            </div>
+            <button><div class="all-categories">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-left">
+                <line x1="17" y1="10" x2="3" y2="10"></line>
+                <line x1="21" y1="6" x2="3" y2="6"></line>
+                <line x1="21" y1="14" x2="3" y2="14"></line>
+                <line x1="17" y1="18" x2="3" y2="18"></line>
+              </svg>
+              <p>All Categories</p>
+
+            </div></button>
+          
+            <!-- muestra un acceso a todas las categorias -->
+
             <div class="desplegables-falsos">
-                <p>Home icono </p>
-                <p>Shop icono </p>
-                <p>Product icono </p>
-                <p>Mega Menu icono </p>
-                <p>Blog icono </p>
-                <p>Pages icono </p>
-                <p>Contact icono </p>
+                <p>Home <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
+                <p>Shop <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
+                <p>Product <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
+                <p>Mega <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
+                <p>Blog <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
+                <p>Pages <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
+                <p>Contact <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
             </div>
+            <!-- mostraria desplegables -->
+
+            <div class="deal-today">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Deal Today
+            </div>
+            <!-- Mostraria las ofertas del dia -->
+
         </div>
+
     </header>
 
     <main>
@@ -64,86 +110,84 @@
             -IMAGENES PROMOCIONES-
             -BLOCK GRANDE-BLOCK/BLOCK-
             -BLOCK-BLOCK-BLOCK -->
-
-
-
-        </div class="container-CATEGORIASYPRODUCTOS">
+            <div class="izquierda-derecha">
+                <div class="izquierda">
+                    <img src="" alt="">
+                </div>
+                <div class="derecha">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="parte-abajo">
+                <img src="" alt="">
+            </div>
+        </div>
+        
+        </div class="container-categorias-productos">
             <!-- CATEGORIAS Y PRODUCTOS-->
 
             <!-- CATEGORIAS -->
             <div class="categorias">
-                <H3>Category</H3>
+                <h3>Category</h3>
                 <!-- LLAMAR CATEGORIA DESDE LAS CATEGORIAS DISPONIBLES EN EL JSON SERVER -->
-                <p class="categorias-json"></p>
+                <ul class="categorias-json"></ul>
             </div>
+
 
             <!-- PRODUCTOS -->
             <div class="productos">
                 <!-- CARD -->
+                <h2>Top Save Today</h2>
+                <img src="/IMAGENES/linea.png" alt="linea" class="linea"><img src="/IMAGENES/hoja.png" alt="Interseccion planta" class="hojita"><img src="/IMAGENES/linea.png" alt="linea" class="linea">
+                <p>Don't miss this opportunity at  special discount just for this week</p>
+
                 <div class="card">
-                        <!-- IMAGEN/DESCRIPCION/BOTONAGREGAR -->
-                        <!-- HOVER DE IMAGEN |OJOVISUALIZAR(NO FUNCIONA)|RECICLAR(NOFUNCIONA)|AGREGARFAVORITOS(FUNCIONA,MANDAARRAYFAV) -->
-                        <div class="product-list">
-                        </div>   
+                    <div class="product-list">
+                      <!-- Aquí van los datos del producto provenientes del JSON Server -->
+
+                    </div>
                 </div>
+                  
+                  
             </div>
         </div>
     </main>
-    <footer>
-        <!-- FINAL DE DESCRIPCION DE LA TIENDA
-                CATEGORIAS
-                USEFULLINKS
-                HELPCENTER
-                CONTACTUS/BOTONESGOOGLEPAYAPPSOTE(THUMBNAIL)
-
-        PIE DE PAGINA -->
-        <div class="final-de-pagina">
-            <table class="contenido-final">
-                <tr>
-                  <th>Celda 1</th>
-                  <th>Celda 2</th>
-                  <th>Celda 3</th>
-                  <th>Celda 4</th>
-                  <th>Celda 5</th>
-                </tr>
-                <tr>
-                  <td>Valor 1</td>
-                  <td>Valor 2</td>
-                  <td>Valor 3</td>
-                  <td>Valor 3</td>
-                  <td>Valor 3</td>
-                </tr>
-                <tr>
-                  <td>Valor 4</td>
-                  <td>Valor 5</td>
-                  <td>Valor 6</td>
-                  <td>Valor 3</td>
-                  <td>Valor 3</td>
-                </tr>
-                <tr>
-                    <td>Valor 4</td>
-                    <td>Valor 5</td>
-                    <td></td>
-                    <td>Valor 3</td>
-                    <td>Valor 3</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Valor 5</td>
-                    <td>Valorr 5</td>
-                    <td>Valor 3</td>
-                    <td></td>
-                </tr>
-
-              </table>
-              
-
-
-
-        </div>
-
-
-    </footer>
+    <div class="wrapper"> 
+        <!-- Contenido -->
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-section">
+              <img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="icono de la tienda"> 
+              <p>We are a friendly bar serving a variety of cocktails, wines and beers. Our bar is a perfect place for a couple.</p>
+              <ul>
+                <li><a href="#">1418 Riverwood Drive, CA 96052, US</a></li>
+                <li><a href="#">support@fastkart.com</a></li>
+              </ul>
+            </div>
+            <div class="footer-section-categories">
+              <h4 class="categories-json">Categorias</h4>
+              <div class="categories-container"></div>
+            </div>
+            <div class="footer-section-otros">
+              <h4>Apps</h4>
+              <p>Gana dinero Aprendiendo.</p>
+              <a href="#">Descarga la App</a>
+            </div>
+          </div>
+      
+          <!--------------------- PIE DE PAGINA DONDE ESTA EL FINAL DE LA PAGINA ------------------------>
+      
+          <div class="footer-bottom">
+            <p>Todos los derechos reservados &copy; Makaia</p>
+          </div>
+        </footer>
+      </div>
+      
+          
+          
+          
     <script src="/js/script.js"></script>
+    
 </body>
 </html>
