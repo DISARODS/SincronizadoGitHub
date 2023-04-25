@@ -140,3 +140,7 @@ if (productList && allCategoriesDiv) {
     console.error('No se ha encontrado algún elemento con la clase "product-list" o "categorias-json"');
     }
 
+
+
+
+   

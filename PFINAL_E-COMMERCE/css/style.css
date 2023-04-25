@@ -405,4 +405,35 @@ footer {
   .footer-content img {
     width: 50px; /* tamaño del logo en dispositivos móviles */
   }
+  .barra-busqueda{
+    display: none;
+  }
 }
+
+/* -------------------------------  CARRITO PAGE  -----------------------------*/
+
+.card-carrito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-producto {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card-producto img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
