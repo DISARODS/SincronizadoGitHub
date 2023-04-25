@@ -12,7 +12,10 @@
 
 </head>
 <body>
-    <header> 
+  
+
+    <body>
+      <header> 
         <!-- - ESTE HEADER ES FIJO -
         -CONTENDRA A EL TITULO , BARA DE BUSQUEDA ICONOS DE LA DERECHA-
         -ALL CATEGORIAS BOTON(MUESTRA TODOS LOS PRODUCTOS DE TODAS LAS CATEGORIAS)- - OPCIONES DESPLEGABLES (NO FINCIONALES)-  -->
@@ -25,7 +28,7 @@
             </div>
             
         </div>
-
+    
         <div class="primera-barra">
             <div class="icono-tienda">
                 <a href="/html/index.html"><img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="icono de la tienda"></a> 
@@ -36,7 +39,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                 </span>
             </div>
-
+    
             <div class="barra-busqueda">
                 <div class="input-group">
                     <input type="search" class="form-control" placeholder="I'm searching for..." aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -45,10 +48,10 @@
                     </button>
                 </div>
             </div>
-
+    
             <!-- BOTON FAVORITOS
                 -AL DARLE CLICK MANDA A OTRO HTML DONDE SE MUESTRA LA LISTA DE FAVORITOS-
-
+    
                 BOTON CARRITO
                 -HOOVER PARA MOSTRAR PRODUCTOS DEL CARRITO-
                 FUNCIONES HOOVER => CREAR MINIVENTANA
@@ -58,7 +61,7 @@
                     
                     DOS BOTONES
                     BOTONVIEWCART - CHECKOUT (LLEVAN AMBOS A LA PAGINA DE FAVORITOS NUEVO HTML) -->
-
+    
             <div class="botones">
                 <div class="botones">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
@@ -69,7 +72,7 @@
             </div>
                 
         </div>
-
+    
         <div class="segunda-barra">
             <button><div class="all-categories">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-left">
@@ -79,11 +82,11 @@
                 <line x1="17" y1="18" x2="3" y2="18"></line>
               </svg>
               <p>All Categories</p>
-
+    
             </div></button>
           
             <!-- muestra un acceso a todas las categorias -->
-
+    
             <div class="desplegables-falsos">
                 <p>Home <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
                 <p>Shop <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
@@ -94,23 +97,19 @@
                 <p>Contact <img src="/IMAGENES/flecha-hacia-abajo-para-navegar.png"></p>
             </div>
             <!-- mostraria desplegables -->
-
+    
             <div class="deal-today">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Deal Today
             </div>
             <!-- Mostraria las ofertas del dia -->
-
+    
         </div>
-
-    </header>
-
-    <body>
-        <header>
-
-        </header>
+    
+      </header>
     
         <main>
-
+          <div class="cards-favoritos">
+          </div>
         </main>
         <div class="wrapper"> 
             <!-- Contenido -->
@@ -142,6 +141,6 @@
               </div>
             </footer>
           </div>
-        <script src="/js/script.js"></script>
+        <script src="/js/scriptfavoritos.js"></script>
     </body>
     </html>

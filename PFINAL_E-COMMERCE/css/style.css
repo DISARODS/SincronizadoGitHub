@@ -411,29 +411,49 @@ footer {
 }
 
 /* -------------------------------  CARRITO PAGE  -----------------------------*/
-
-.card-carrito {
+.promociones {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-top: 20px;
+  align-items: center;
 }
 
-.card-producto {
-  width: 200px;
+.izquierda-derecha {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.card-producto img {
-  width: 200px;
-  margin-bottom: 10px;
+.izquierda {
+  width: 60%;
 }
+
+.derecha {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.derecha img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.parte-abajo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.parte-abajo img {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+
+
 

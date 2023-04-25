@@ -408,3 +408,52 @@ footer {
     display: none;
   }
 }
+
+
+/* -------------------------------  CARRITO PAGE  -----------------------------*/
+.promociones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.izquierda-derecha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.izquierda {
+  width: 60%;
+}
+
+.derecha {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.derecha img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.parte-abajo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.parte-abajo img {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+
+
+
